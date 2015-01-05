@@ -34,10 +34,10 @@ Here's an example to show this:
 
 ```HTML
 <ul class='menu'>
-  <li>Home</li>
-  <li>About</li>
-  <li>News</li>
-  <li>Contact</li>
+  <li> Home </li>
+  <li> About </li>
+  <li> News </li>
+  <li> Contact </li>
 </ul>
 ```
 Next you need to go into your Javascript file, or the flex.js file, and enter the following:
