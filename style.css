@@ -97,6 +97,7 @@ p {
 .demo ul {
   list-style: none;
   width: auto;
+  background: #eee;
 }
 .demo ul li {
   cursor: pointer;
