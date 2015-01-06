@@ -175,13 +175,12 @@ p {
   max-width: 30%;
   float: left;
   padding: 20px;
+  margin-bottom: 50px;
 }
 .seven .pTwo {
   padding-top: 260px;
 }
-.seven .arrowSeven {
-  margin-top: 200px;
-}
+
 
 .eight {
   background: #E74C3C;
