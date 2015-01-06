@@ -92,6 +92,12 @@ $('.optionFour').click(function(){
   }, 400);
 });
 
+$('.optionFive').click(function(){
+  $('html, body').animate({
+  scrollTop: $('.nine').offset().top
+  }, 400);
+});
+
 $('.arrowOptions').click(function(){
   $('html, body').animate({
     scrollTop: $('.four').offset().top
