@@ -1,9 +1,9 @@
-a{
-	text-decoration: none;
-	color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.wrap{
+.wrap {
   width: 100%;
 }
 
@@ -11,7 +11,7 @@ div, a {
   margin: auto;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   text-align: center;
 }
 
@@ -19,25 +19,25 @@ h1, h2, h3{
   height: 1200px;
 }
 
-.one{
+.one {
   background: #9B59B6;
 }
 
-.title{
+.title {
   color: black;
   font-size: 100px;
   width: auto;
   text-align: center;
   padding-top: 130px;
 }
-    
-.description{
+
+.description {
   margin: auto;
   width: 40%;
   margin-top: 50px;
   font-size: 20px;
   text-align: center;
-}    
+}
 
 p {
   padding: 70px;
@@ -59,213 +59,214 @@ p {
   border-radius: 5px;
 }
 
-.two{
-	background: #C0392B;
-  p {
-    float: left;
-  }
-  .title {
-    padding-top: 50px;
-  }
+.two {
+  background: #C0392B;
+}
+.two p {
+  float: left;
+}
+.two .title {
+  padding-top: 50px;
 }
 
 .three {
   background: #27AE60;
-  .title {
-    padding-top: 100px;
-  }
-  p, .code {
-    margin: auto;
-    display: block;
-  }
-  .code {
-    width: 30%;
-    text-align: center;
-  }
-  p {
-    padding-bottom: 50px;
-  }
+}
+.three .title {
+  padding-top: 100px;
+}
+.three p, .three .code {
+  margin: auto;
+  display: block;
+}
+.three .code {
+  width: 30%;
+  text-align: center;
+}
+.three p {
+  padding-bottom: 50px;
 }
 
 .demo {
   background: #3498DB;
-  p {
-    max-width: 80%;
-    padding: 10px 30px;
-  }
-  ul {
-    list-style: none;
-    width: auto;
-    li {
-      cursor: pointer;
-      font-size: 30px;
-      width: auto;
-    }
-  }
+}
+.demo p {
+  max-width: 80%;
+  padding: 10px 30px;
+}
+.demo ul {
+  list-style: none;
+  width: auto;
+}
+.demo ul li {
+  cursor: pointer;
+  font-size: 30px;
+  width: auto;
 }
 
 .four {
   background: #2ECC71;
-  ul {
-    display: inline-block;
-    font-size: 30px;
-    li:hover {
-      cursor: pointer;
-      color: #E74C3C;
-    }
-  }
-  p {
-    display: inline-block;
-  }
-  .title {
-    padding-top: 70px;
-    padding-bottom: 20px;
-  }
+}
+.four ul {
+  display: inline-block;
+  font-size: 30px;
+}
+.four ul li:hover {
+  cursor: pointer;
+  color: #E74C3C;
+}
+.four p {
+  display: inline-block;
+}
+.four .title {
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 .five {
   background: #1ABC9C;
-  .title {
-    padding-top: 50px;
-  }
-  p {
-    max-width: 80%;
-    margin: auto;
-  }
+}
+.five .title {
+  padding-top: 50px;
+}
+.five p {
+  max-width: 80%;
+  margin: auto;
 }
 
 .six {
   background: #F1C40F;
-  .title {
-    padding-top: 20px;
-  }
-  p {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    max-width: 70%;
-    display: block;
-    margin: 17px auto;
-    font-size: 35px;
-  }
-  .code {
-    display: block;
-    width: 50%;
-    margin: auto;
-  }
-  .arrowOptions {
-    padding-top: 20px;
-  }
+}
+.six .title {
+  padding-top: 20px;
+}
+.six p {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-width: 70%;
+  display: block;
+  margin: 17px auto;
+  font-size: 35px;
+}
+.six .code {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+.six .arrowOptions {
+  padding-top: 20px;
 }
 
 .seven {
   background: #E67E22;
-  .title {
-    padding-top: 10px;
-  }
-  p {
-    max-width: 35%;
-    font-size: 23px;
-    float: left;
-    padding: 10px;
-    padding-left: 20px;
-  }
-  .code {
-    font-size: 16px;
-    max-width: 30%;
-   float: left;
-    padding: 20px;
-  }  
-  .pTwo {
-    padding-top: 260px;
-  }
-  .arrowSeven {
-    float: right;
-    padding-right: 220px;
-    margin-top: -20px;
-  }
+}
+.seven .title {
+  padding-top: 10px;
+}
+.seven p {
+  max-width: 35%;
+  font-size: 23px;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+.seven .code {
+  font-size: 16px;
+  max-width: 30%;
+  float: left;
+  padding: 20px;
+}
+.seven .pTwo {
+  padding-top: 260px;
+}
+.seven .arrowSeven {
+  float: right;
+  padding-right: 220px;
+  margin-top: -20px;
 }
 
-.eight{
+.eight {
   background: #E74C3C;
-  .title {
-    padding-top: 30px;
-  }
-  p {
-    padding: 0 40px;
-    font-size: 30px;
-    max-width: 40%;
-  }
-  .pTwo {
-    float: right;
-    font-size: 25px;
-    max-width: 40%;
-    padding-top: 200px;
-    margin-top: -440px;
-    margin-right: 12%;
-  }
-  ul {
-    float: right;
-    margin-top: -170px;
-    padding-right: 180px;
-    max-width: 35%;
-    font-size: 20px;
-  }
-  .code {
-    max-width: 25%;
-    display: block;
-    margin-left: 20px;
-  }
+}
+.eight .title {
+  padding-top: 30px;
+}
+.eight p {
+  padding: 0 40px;
+  font-size: 30px;
+  max-width: 40%;
+}
+.eight .pTwo {
+  float: right;
+  font-size: 25px;
+  max-width: 40%;
+  padding-top: 200px;
+  margin-top: -440px;
+  margin-right: 12%;
+}
+.eight ul {
+  float: right;
+  margin-top: -170px;
+  padding-right: 180px;
+  max-width: 35%;
+  font-size: 20px;
+}
+.eight .code {
+  max-width: 25%;
+  display: block;
+  margin-left: 20px;
 }
 
 .nine {
   background: #C0392B;
-  .title {
-    padding-top: 50px;
-  }
-  p {
-    float: left;
-  }
-  
-  .code {
-    float: left;
-    margin: 50px 0 0 60px;
-    padding: 50px 70px;
-  }
+}
+.nine .title {
+  padding-top: 50px;
+}
+.nine p {
+  float: left;
+}
+.nine .code {
+  float: left;
+  margin: 50px 0 0 60px;
+  padding: 50px 70px;
 }
 
 .codeIn {
   font-family: Source Code Pro;
 }
 
-.boxes{
+.boxes {
   width: 80%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 100px;
 }
 
-.zip, .github{
+.zip, .github {
   display: inline;
   border: solid #dedede 2px;
   border-radius: 20px;
   padding: 15px 30px;
   cursor: pointer;
   font-size: 20px;
-background: white;
+  background: white;
 }
 
 .arrow, .arrowTwo, .arrowThree, .arrowDemo, .arrowFour, .arrowFive, .arrowSix, .arrowSeven, .arrowEight {
-	margin-top: 60px;
-	text-align: center;
-	font-size: 40px;
-	width: 100px;
-	cursor: pointer;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 40px;
+  width: 100px;
+  cursor: pointer;
 }
 
 .arrowFour {
   margin-top: 0px;
 }
 
-.arrowOptions{
+.arrowOptions {
   text-align: center;
   font-size: 40px;
   width: 40px;
