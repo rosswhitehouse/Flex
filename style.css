@@ -104,6 +104,7 @@ p {
   cursor: pointer;
   font-size: 30px;
   width: auto;
+  padding: 10px 0;
 }
 
 .demo ul li:hover {
