@@ -1,8 +1,22 @@
-<div class="wrap">
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Flex by  Ross Whitehouse</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="wrap">
   <div class="one">
 	<div class="title">Flex
 	</div>
-  
 
     <div class="description">Easily turn your list into a responsive Flexbox menu that won't interrupt your code.</div>
 
@@ -10,13 +24,13 @@
 		<a href="flex.js"><div class="zip">Download JS file</div></a>
 		<a href="github"><div class="github">View on Github</div></a>
 	</div>
-	  
+
 	  <div class="arrow"><i class=" fa fa-arrow-circle-down">gteg</i></div>
-	  
+
 	</div>
-    
+
 	  <div class="two">  
-      
+
       <div class="instructions">
         <div class="title">How It Works</div>
         <p>Take your regular list-menu, like this:</p>
@@ -33,21 +47,21 @@
 	  </div>
       <div class="arrowTwo"><i class="fa fa-arrow-circle-down">gteg</i></div>
   </div>
-      
+
       <div class="three">
         <div class="title">Next...</div>
         <p>Having called Flex.js, simply place this line in your js file:</p>
         <div class="code">$('.menu').flex({});</div>
         <div class="arrowThree"><i class=" fa fa-arrow-circle-down">gteg</i></div>
-        
+
       </div>
-  
+
   <div class="demo">
     <div class="title">Try it Out!</div>
     <p>
       Resize the window and watch the menu change!
     </p>
-    
+
     <div class="menu">
       <ul>
         <li>Home</li>
@@ -58,7 +72,7 @@
     </div>
     <div class="arrowDemo"><i class=" fa fa-arrow-circle-down">gteg</i></div>
   </div>
-  
+
   <div class="four">
     <div class="title">Now...</div>
     <p>There are plenty of options to customise your menu as you like:</p>
@@ -71,14 +85,14 @@
     </ul> 
     <div class="arrowFour"><i class=" fa fa-arrow-circle-down">gteg</i></div>
   </div>
-  
+
   <div class="five">
     <div class="arrowOptions"><i class=" fa fa-arrow-circle-down">gteg</i></div>
     <div class="title">Colours and Fonts</div>
     <p>Good news! Flex is as code-agnostic as possible, which means your menu items will inherit styles like these from the CSS you set and it won't interrupt what flex is doing!</p>
     <div class="arrowFive"><i class=" fa fa-arrow-circle-down">gteg</i></div>
   </div>
-  
+
   <div class="six">
     <div class="arrowOptions"><i class=" fa fa-arrow-circle-down">gteg</i></div>
     <div class="title">
@@ -91,7 +105,7 @@
     </p>
   <div class="arrowSix"><i class=" fa fa-arrow-circle-down">gteg</i></div>
   </div>
-  
+
   <div class="seven">
     <div class="arrowOptions"><i class=" fa fa-arrow-circle-down">gteg</i></div>
     <div class="title">
@@ -118,11 +132,11 @@
     });<br />
   }<br />
       </span>
-    
+
     <p class="pTwo">You can remove this completely, or change it to a different screen width. You can also swap column for row.</p>
     <div class="arrowSeven"><i class=" fa fa-arrow-circle-down">gteg</i></div>
   </div>
-  
+
   <div class="eight">
     <div class="arrowOptions"><i class=" fa fa-arrow-circle-down">gteg</i></div>
     <div class="title">
@@ -130,9 +144,9 @@
     </div>
     <p>
       In order to define the space around your menu items, first, find the options at the top, and set the following option:</p>
-      
+
       <div class="code">justify: 'space-around'</div>
-      
+
       <p class="pTwo">
        You can change the option to any of the following:
       <ul>
@@ -143,7 +157,7 @@
         <li>Space-Around - Similar to Space-Between, but also puts space at the edges of the menu.</li>
       </ul>
     </p>
-  
+
   <div class="arrowEight"><i class=" fa fa-arrow-circle-down">gteg</i></div>
   </div>
 
@@ -153,7 +167,7 @@
     Order
   </div>
   <p>This section of code selects each item in your list and applies an order to them. To change the order, simply change the number in the qoutes. The lower the number, the earlier the order.</p>
-  
+
   <div class="code">
      $(one).css({<br />
      'order':'1'<br />
@@ -168,6 +182,13 @@
    });
   </div>
 </div>
-	
+
 </div>
 
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
