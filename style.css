@@ -98,6 +98,7 @@ p {
   list-style: none;
   width: auto;
   background: #eee;
+  padding: 10px 0;
 }
 .demo ul li {
   cursor: pointer;
