@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 .one {
-  background: #9B59B6;
+  background: ##ED91FF;
 }
 
 .title {
@@ -60,7 +60,7 @@ p {
 }
 
 .two {
-  background: #C0392B;
+  background: #E74C3C;
 }
 .two p {
   float: left;
@@ -70,7 +70,7 @@ p {
 }
 
 .three {
-  background: #27AE60;
+  background: #2ECC71;
 }
 .three .title {
   padding-top: 100px;
@@ -88,7 +88,7 @@ p {
 }
 
 .demo {
-  background: #3498DB;
+  background: #87BFFF;
 }
 .demo p {
   max-width: 80%;
@@ -105,7 +105,7 @@ p {
 }
 
 .four {
-  background: #2ECC71;
+  background: #FFB5F4;
 }
 .four ul {
   display: inline-block;
@@ -124,7 +124,7 @@ p {
 }
 
 .five {
-  background: #1ABC9C;
+  background: #91FFE9;
 }
 .five .title {
   padding-top: 50px;
@@ -135,7 +135,7 @@ p {
 }
 
 .six {
-  background: #F1C40F;
+  background: #FFE166;
 }
 .six .title {
   padding-top: 20px;
@@ -158,7 +158,7 @@ p {
 }
 
 .seven {
-  background: #E67E22;
+  background: #FFAC63;
 }
 .seven .title {
   padding-top: 10px;
@@ -183,7 +183,7 @@ p {
 
 
 .eight {
-  background: #E74C3C;
+  background: #FF7263;
 }
 .eight .title {
   padding-top: 30px;
@@ -215,7 +215,7 @@ p {
 }
 
 .nine {
-  background: #C0392B;
+  background: #D673FF;
 }
 .nine .title {
   padding-top: 50px;
