@@ -104,6 +104,10 @@ p {
   width: auto;
 }
 
+.four ul li:hover {
+  color: #E74C3C;
+}
+
 .four {
   background: #FFB5F4;
 }
