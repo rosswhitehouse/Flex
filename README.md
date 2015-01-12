@@ -53,3 +53,5 @@ In this example we've used `.menu` because that was the class of the `ul` we wan
 Finally there are a number of options that can be set to customize Flex, including direction, order and horizontal and vertical orientations. If you're familiar with Flexbox, you'll be familiar with some of the things you can customise.
 
 Check out the demo for more!
+
+[rosswhitehouse.github.io/flex](rosswhitehouse.github.io/flex)
