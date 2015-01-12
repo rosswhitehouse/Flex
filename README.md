@@ -11,7 +11,7 @@ Firstly we have to install Flex in two stages. Firstly, installing Google Jquery
 To install JQuery, simply copy the following link directly **before** your last `</body>` tag, if you have any other javascript files, they must be linked **after** JQuery:
 
 ```HTML
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 ```
 
 ###Flex.js
